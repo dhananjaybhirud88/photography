@@ -7,10 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: 'contact', component: ContactusComponent },
-  { path: 'home',      component: ContentComponent }
+  { path: 'home', component: ContentComponent }
 ];
 
 @NgModule({
@@ -19,7 +24,12 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    ContactusComponent
+    ContactusComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
+    GalleryComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
