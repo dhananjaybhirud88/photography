@@ -25,7 +25,16 @@
             "styles": [
               "src/assets/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/material-kit/assets/js/core/jquery.min.js",
+              "node_modules/material-kit/assets/js/core/popper.min.js",
+              "node_modules/material-kit/assets/js/core/bootstrap-material-design.min.js",
+              "node_modules/material-kit/assets/js/plugins/moment.min.js",
+              "node_modules/material-kit/assets/js/plugins/bootstrap-datetimepicker.js",
+              "node_modules/material-kit/assets/js/plugins/nouislider.min.js",
+              "node_modules/material-kit/assets/js/plugins/jquery.sharrre.js",
+              "node_modules/material-kit/assets/js/material-kit.js"
+            ]
           },
           "configurations": {
             "production": {
