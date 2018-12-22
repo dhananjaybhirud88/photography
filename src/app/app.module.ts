@@ -15,7 +15,8 @@ import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: 'contact', component: ContactusComponent },
-  { path: 'home', component: ContentComponent }
+  { path: 'home', component: ContentComponent },
+  { path: '', component: ContentComponent }
 ];
 
 @NgModule({
